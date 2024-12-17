@@ -1,0 +1,65 @@
+/* Styles généraux */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Barre de recherche */
+.input-group input {
+    border-radius: 5px 0 0 5px;
+}
+
+.input-group .btn {
+    border-radius: 0 5px 5px 0;
+}
+
+/* Style des cartes produits */
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #007bff;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.card-text strong {
+    color: #28a745;
+    font-size: 1rem;
+}
+
+.row .col-md-4 {
+    margin-bottom: 20px;
+}
+
+/* Message de chargement */
+#loading {
+    font-size: 1.2rem;
+    color: #666;
+}
